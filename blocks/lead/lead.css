@@ -1,0 +1,13 @@
+.lead {
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 48px 0 0 0;
+}
+
+@media (min-width: 1280px) {
+  .lead {
+    margin: 56px 0 0 0;
+  }
+}
