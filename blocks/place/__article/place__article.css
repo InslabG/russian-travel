@@ -1,0 +1,10 @@
+.place__article {
+  grid-area: article;
+  margin: 32px 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .place__article {
+    margin: 0;
+  }
+}

@@ -1,0 +1,55 @@
+.place {
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "title"
+  "url"
+  "img"
+  "article";
+  padding: 0;
+  margin: 0 0 50px;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .place {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title url"
+    "img article";
+    row-gap: 48px;
+    column-gap: 28px;
+    margin: 0 0 72px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title url"
+    "img article";
+    row-gap: 48px;
+    column-gap: 32px;
+    margin: 0 0 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title url"
+    "img article";
+    row-gap: 48px;
+    column-gap: 40px;
+    margin: 0 0 80px;
+  }
+}
