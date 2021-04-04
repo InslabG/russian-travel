@@ -5,4 +5,4 @@
 
 Используемые технологии: HTML, CSS, БЭМ
 
-
+Ссылка на проект: https://inslabg.github.io/russian-travel/
