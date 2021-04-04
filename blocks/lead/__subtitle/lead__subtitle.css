@@ -21,15 +21,11 @@
 @media (min-width: 1024px) {
   .lead__subtitle {
     margin: 32px 192px 56px;
-    font-size: 30px;
-    line-height: 36px;
   }
 }
 
 @media (min-width: 1280px) {
   .lead__subtitle {
     margin: 32px 320px 64px;
-    font-size: 30px;
-    line-height: 36px;
   }
 }
