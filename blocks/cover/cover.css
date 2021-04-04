@@ -29,3 +29,23 @@
 .cover:hover::after {
   opacity: 0.8;
 }
+
+@media (min-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    margin-top: 92px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .cover {
+    margin: 92px 48px;
+    width: calc(100% - 96px);
+  }
+}

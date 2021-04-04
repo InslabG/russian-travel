@@ -32,11 +32,6 @@
 
 @media (min-width: 1024px) {
   .place {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-    "title url"
-    "img article";
-    row-gap: 48px;
     column-gap: 32px;
     margin: 0 0 80px;
   }
@@ -44,12 +39,6 @@
 
 @media (min-width: 1280px) {
   .place {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-    "title url"
-    "img article";
-    row-gap: 48px;
     column-gap: 40px;
-    margin: 0 0 80px;
   }
 }
